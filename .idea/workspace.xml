@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit integrando el nuevo tp">
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ColaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ListaEnlazadaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ListaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/NodoGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/test/java/ejercicio3/TestRecorrido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaEnlazadaGenericaTP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaGenericaTP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ColaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ColaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaEnlazadaGenericaTP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaGenericaTP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/PilaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/PilaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio4/PilaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio4/PilaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ArbolGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ArbolGeneral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/ejercicio1/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +47,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBalanceo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestColaPila.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestListaDeEnterosConArreglos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestListaEnlazadaGenerica.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio1.TestListaDeEnterosConArreglos.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/desertfoxs/eclipse-workspace2/AyED/TP2/src/main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/desertfoxs/eclipse-workspace2/AyED/TP1/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestBalanceo.executor": "Run",
+    "Application.TestColaPila.executor": "Run",
+    "Application.TestListaDeEnterosConArreglos.executor": "Run",
+    "Application.TestListaEnlazadaGenerica.executor": "Run",
+    "Application.TestRecorrido.executor": "Run",
+    "Application.ejercicio1.TestListaDeEnterosConArreglos.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/desertfoxs/eclipse-workspace2/AyED/TP2/src/main/java/claseUtilizar",
+    "onboarding.tips.debug.path": "C:/Users/desertfoxs/eclipse-workspace2/AyED/TP1/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP2\src\main\java\claseUtilizar" />
       <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP2\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="claseUtilizar" />
       <recent name="ejercicio4" />
       <recent name="ejercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestRecorrido">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio1.Main" />
       <module name="TP2" />
@@ -96,7 +112,7 @@
       <module name="TP1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio3.*" />
+          <option name="PATTERN" value="ejercicio3.RecorrdiosAG" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercicio1.TestListaDeEnterosConArreglos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.TestListaDeEnterosConArreglos" />
-      <module name="TP1" />
+    <configuration name="TestRecorrido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio3.TestRecorrido" />
+      <module name="TP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="PATTERN" value="ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRecorrido" />
+        <item itemvalue="Application.TestListaEnlazadaGenerica" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestBalanceo" />
         <item itemvalue="Application.TestColaPila" />
-        <item itemvalue="Application.TestListaEnlazadaGenerica" />
-        <item itemvalue="Application.ejercicio1.TestListaDeEnterosConArreglos" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +185,20 @@
       <option name="presentableId" value="Default" />
       <updated>1723155418774</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit integrando el nuevo tp">
+      <option name="closed" value="true" />
+      <created>1724361697601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724361697601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit integrando el nuevo tp" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit integrando el nuevo tp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,6 +217,11 @@
           <url>file://$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,18 +1,20 @@
-package ejercicio3;
+package claseUtilizar;
 
-public class PilaGenerica<T> {
+import ejercicio3.ListaEnlazadaGenericaTP1;
+
+public class ColaGenerica<T> {
 
     private ListaEnlazadaGenericaTP1<T> datos;
 
-    public PilaGenerica() {
+    public ColaGenerica() {
         this.datos = new ListaEnlazadaGenericaTP1<T>();
     }
 
-    public void apilar(T elem){
-        datos.agregarInicio(elem);
+    public void encolar(T elem){
+        datos.agregarFinal(elem);
     }
 
-    public T desapilar(){
+    public T desencolar(){
         datos.comenzar();
         T elem = datos.elemento(1);
         datos.eliminarEn(1);
@@ -21,7 +23,7 @@ public class PilaGenerica<T> {
 
     public T tope(){
         datos.comenzar();
-        return datos.elemento(datos.tamanio());
+        return datos.elemento(1);
     }
 
     public boolean esVacia(){

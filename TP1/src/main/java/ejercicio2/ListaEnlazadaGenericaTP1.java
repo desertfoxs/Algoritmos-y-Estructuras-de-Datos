@@ -5,7 +5,7 @@ package ejercicio2;
  * la ListaEnlazadaGenerica no tiene limite en la cantidad de elementos que se
  * pueden almacenar.
  * */
-public class ListaEnlazadaGenerica<T> extends ListaGenerica<T> {
+public class ListaEnlazadaGenericaTP1<T> extends ListaGenericaTP1<T> {
 	/* primer nodo de la lista, si la lista esta vacia, inicio es null */
 	private NodoGenerico<T> inicio;
 
@@ -200,8 +200,8 @@ public class ListaEnlazadaGenerica<T> extends ListaGenerica<T> {
 	}
 
 	@Override
-	public ListaGenerica<T> clonar() {
-		ListaGenerica<T> nueva = new ListaEnlazadaGenerica<T>();
+	public ListaGenericaTP1<T> clonar() {
+		ListaGenericaTP1<T> nueva = new ListaEnlazadaGenericaTP1<T>();
 		this.comenzar();
 		while (!this.fin()) {
 			nueva.agregarFinal(this.proximo());

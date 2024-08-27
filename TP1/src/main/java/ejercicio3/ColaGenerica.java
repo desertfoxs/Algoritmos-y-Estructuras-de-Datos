@@ -2,10 +2,10 @@ package ejercicio3;
 
 public class ColaGenerica<T> {
 
-    private ListaEnlazadaGenerica<T> datos;
+    private ListaEnlazadaGenericaTP1<T> datos;
 
     public ColaGenerica() {
-        this.datos = new ListaEnlazadaGenerica<T>();
+        this.datos = new ListaEnlazadaGenericaTP1<T>();
     }
 
     public void encolar(T elem){

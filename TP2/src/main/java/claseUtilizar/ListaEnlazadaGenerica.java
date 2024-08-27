@@ -1,7 +1,4 @@
-package ejercicio3;
-
-import ejercicio2.ListaGenerica;
-import ejercicio2.NodoGenerico;
+package claseUtilizar;
 
 /**
  * La clase ListaGenericaEnlazada es una ListaGenerica, donde los elementos de
@@ -9,7 +6,7 @@ import ejercicio2.NodoGenerico;
  * la ListaEnlazadaGenerica no tiene limite en la cantidad de elementos que se
  * pueden almacenar.
  * */
-public class ListaEnlazadaGenerica<T> extends ejercicio2.ListaGenerica<T> {
+public class ListaEnlazadaGenerica<T> extends ListaGenerica<T> {
 	/* primer nodo de la lista, si la lista esta vacia, inicio es null */
 	private NodoGenerico<T> inicio;
 
@@ -204,7 +201,7 @@ public class ListaEnlazadaGenerica<T> extends ejercicio2.ListaGenerica<T> {
 	}
 
 	@Override
-	public ejercicio2.ListaGenerica<T> clonar() {
+	public ListaGenerica<T> clonar() {
 		ListaGenerica<T> nueva = new ListaEnlazadaGenerica<T>();
 		this.comenzar();
 		while (!this.fin()) {

@@ -1,11 +1,11 @@
-package ejercicio3;
+package ejercicio2;
 
 /**
  * ListaDeEnteros es una clase abstracta que define los métodos que deberán
  * implementar todas aquellas clases que quieran representar una coleccion de
  * números enteros, extendiendo esta clase
  * */
-public abstract class ListaGenerica<T> {
+public abstract class ListaGenericaTP1<T> {
 
 	/** permite posicionarse al principio de la lista */
 	public abstract void comenzar();
@@ -111,7 +111,7 @@ public abstract class ListaGenerica<T> {
 	/**
 	 * Devuelve una lista con una copia de los elementos de la lista generica receptora del mensaje
 	 * **/
-	public abstract ListaGenerica<T> clonar();
+	public abstract ListaGenericaTP1<T> clonar();
 
 	/**
 	 * Devuelve una lista sin elementos.

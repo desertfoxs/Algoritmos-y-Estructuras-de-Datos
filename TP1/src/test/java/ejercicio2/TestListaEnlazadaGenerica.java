@@ -9,7 +9,7 @@ public class TestListaEnlazadaGenerica {
         var estudiante3 = new Estudiante("angel", "olivetti", "$$$");
         var estudiante4 = new Estudiante("bruno", "sosa", "$$$");
 
-        var listaEnlazadaAgregacionManual = new ListaEnlazadaGenerica<Estudiante>();
+        var listaEnlazadaAgregacionManual = new ListaEnlazadaGenericaTP1<Estudiante>();
         listaEnlazadaAgregacionManual.agregarFinal(estudiante1);
         listaEnlazadaAgregacionManual.agregarFinal(estudiante2);
         listaEnlazadaAgregacionManual.agregarFinal(estudiante3);
@@ -19,13 +19,13 @@ public class TestListaEnlazadaGenerica {
         var nodo = new NodoGenerico<Estudiante>();
 
 
-        var listaEnlazadaAgregacionAutomatica = new ListaEnlazadaGenerica<Estudiante>();
+        var listaEnlazadaAgregacionAutomatica = new ListaEnlazadaGenericaTP1<Estudiante>();
         Estudiante[] estudiantes = {estudiante1, estudiante2, estudiante3, estudiante4};
         listaEnlazadaAgregacionAutomatica.agregar(estudiantes);
         tusDatos(listaEnlazadaAgregacionAutomatica);
     }
 
-    public static void tusDatos(ListaEnlazadaGenerica<Estudiante> listaEnlazada){
+    public static void tusDatos(ListaEnlazadaGenericaTP1<Estudiante> listaEnlazada){
         while(!listaEnlazada.fin()){
             System.out.println(listaEnlazada.proximo().toString());
         }

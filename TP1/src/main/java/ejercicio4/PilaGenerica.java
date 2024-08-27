@@ -1,13 +1,13 @@
 package ejercicio4;
 
-import ejercicio3.ListaEnlazadaGenerica;
+import ejercicio3.ListaEnlazadaGenericaTP1;
 
 public class PilaGenerica<T> {
 
-    private ListaEnlazadaGenerica<T> datos;
+    private ListaEnlazadaGenericaTP1<T> datos;
 
     public PilaGenerica() {
-        this.datos = new ListaEnlazadaGenerica<T>();
+        this.datos = new ListaEnlazadaGenericaTP1<T>();
     }
 
     public void apilar(T elem){

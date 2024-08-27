@@ -1,8 +1,5 @@
 package claseUtilizar;
 
-import ejercicio2.ListaEnlazadaGenerica;
-import ejercicio2.ListaGenerica;
-
 public class ArbolGeneral<T> {
 
 	private T dato;
