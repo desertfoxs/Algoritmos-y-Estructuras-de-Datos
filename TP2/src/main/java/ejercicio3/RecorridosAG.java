@@ -80,13 +80,13 @@ public class RecorridosAG {
 
         while(!cola.esVacia()){
             arbolAux = cola.desencolar();
-
-            listaResultado.agregarFinal(arbolAux.getDato()); //aca tendria que guardar el resultado en una nueva lista
+            if(condicion(num, arbolAux.getDato())){
+                listaResultado.agregarFinal(arbolAux.getDato());
+            }
 
             if(arbolAux.tieneHijos()){
                 encolarHijos(arbolAux, cola);
             }
-
         }
 
         return listaResultado;

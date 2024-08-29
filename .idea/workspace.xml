@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit integrando el nuevo tp">
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ColaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ListaEnlazadaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ListaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/NodoGenerico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/test/java/ejercicio3/TestRecorrido.java" afterDir="false" />
+    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit con el ejercicio 3 listo">
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio4/AnalizadorArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio4/AreaEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2/src/test/java/ejercicio4/TestAnalizador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaEnlazadaGenericaTP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio2/ListaGenericaTP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ColaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ColaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaEnlazadaGenericaTP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/ListaGenericaTP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/PilaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio3/PilaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/main/java/ejercicio4/PilaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/main/java/ejercicio4/PilaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ArbolGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/claseUtilizar/ArbolGeneral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/ejercicio1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.TestAnalizador.executor": "Debug",
     "Application.TestBalanceo.executor": "Run",
     "Application.TestColaPila.executor": "Run",
     "Application.TestListaDeEnterosConArreglos.executor": "Run",
@@ -80,7 +69,7 @@
       <recent name="ejercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestRecorrido">
+  <component name="RunManager" selected="Application.TestAnalizador">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio1.Main" />
       <module name="TP2" />
@@ -94,9 +83,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBalanceo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio4.TestBalanceo" />
-      <module name="TP1" />
+    <configuration name="TestAnalizador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio4.TestAnalizador" />
+      <module name="TP2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ejercicio4.*" />
@@ -107,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestColaPila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio3.TestColaPila" />
+    <configuration name="TestBalanceo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio4.TestBalanceo" />
       <module name="TP1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio3.RecorrdiosAG" />
+          <option name="PATTERN" value="ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAnalizador" />
         <item itemvalue="Application.TestRecorrido" />
         <item itemvalue="Application.TestListaEnlazadaGenerica" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestBalanceo" />
-        <item itemvalue="Application.TestColaPila" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724361697601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit con el ejercicio 3 listo">
+      <option name="closed" value="true" />
+      <created>1724803167513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724803167513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit integrando el nuevo tp" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit integrando el nuevo tp" />
+    <MESSAGE value="commit con el ejercicio 3 listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit con el ejercicio 3 listo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -217,11 +215,6 @@
           <url>file://$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP2/src/main/java/ejercicio3/RecorridosAG.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
