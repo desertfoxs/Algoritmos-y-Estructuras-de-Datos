@@ -38,7 +38,7 @@ public class TestAnalizador {
         arbolnodo3.agregarHijo(arbolnodo11);
         arbolnodo3.agregarHijo(arbolnodo12);
 
-        System.out.println(analizadorArbol.devolverMaximoPromedio(arbolraiz));
+        System.out.println("El maximo promedio por nivel es: " + analizadorArbol.devolverMaximoPromedio(arbolraiz));
 
     }
 }
