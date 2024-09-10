@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit con el ejercicio 5 listo">
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio6/ArbolGeneralMejorado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2/src/test/java/ejercicio6/TestArbolGeneralMejorado.java" afterDir="false" />
+    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit con el ejercicio 6 listo">
+      <change afterPath="$PROJECT_DIR$/TP3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/ejercicio6/ArbolGeneralMejorado.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio6/ArbolGeneralMejorado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724976379735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit con el ejercicio 6 listo">
+      <option name="closed" value="true" />
+      <created>1725138364679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725138364679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,7 +226,8 @@
     <MESSAGE value="commit con el ejercicio 3 listo" />
     <MESSAGE value="commit con el ejercicio 4 listo" />
     <MESSAGE value="commit con el ejercicio 5 listo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit con el ejercicio 5 listo" />
+    <MESSAGE value="commit con el ejercicio 6 listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit con el ejercicio 6 listo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,6 +246,11 @@
           <url>file://$PROJECT_DIR$/TP1/src/test/java/ejercicio2/TestListaEnlazadaGenerica.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

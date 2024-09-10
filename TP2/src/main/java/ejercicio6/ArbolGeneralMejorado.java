@@ -14,7 +14,12 @@ public class ArbolGeneralMejorado<T> {
 	private static boolean nodoAEncontrado;
 	private static boolean nodoBEncontrado;
 
+	private static int cantHijos;
+	private static boolean encontroHijo;
 	private ListaGenerica<ArbolGeneralMejorado<T>> hijos = new ListaEnlazadaGenerica<ArbolGeneralMejorado<T>>();
+	private static boolean guardoHijo;
+
+
 	public T getDato() {
 		return dato;
 	}
@@ -239,47 +244,101 @@ public class ArbolGeneralMejorado<T> {
 
 	public Boolean esArbolCompleto(){
 
-        return procesarArbolCompleto(0) != -1;
+		if(procesarArbolCompletoMenosHijos(0)){
+			return procesarArbolCompletoConHijos(this);
+		}
 
+        return false;
 	}
 
-    private int procesarArbolCompleto(int nivel) {
+	private Boolean procesarArbolCompletoConHijos(ArbolGeneralMejorado<T> arbol) {
 
-        if(this.hijos.esVacia()){
-            return nivel;
-        }
+		ListaGenerica<ArbolGeneralMejorado<T>> listaHijos = new ListaEnlazadaGenerica<ArbolGeneralMejorado<T>>();
+		listaHijos = arbol.hijos;
+		listaHijos.comenzar();
 
-        int nivelHoja = -1;
-        int numHijos = this.hijos.tamanio();
-		int i = 0;
+		if(listaHijos.esVacia()){
+			encontroHijo = true;
+			return true;
+		}
 
-        while(i < numHijos){
-            int nivelActual = this.hijos.proximo().procesarArbolCompleto(nivel + 1);
+		while(!(listaHijos.fin())){
+			ArbolGeneralMejorado<T> arbolNodo = listaHijos.proximo();
+			procesarArbolCompletoConHijos(arbolNodo);
 
-            if(nivelActual == -1){
-                return -1;
-            }
-
-			if(i == 0){
-				nivelHoja = nivelActual;
-			}
-			else if(nivelActual != nivelHoja && nivelActual != nivelHoja - 1){
-				return -1;
+			if(encontroHijo && !guardoHijo){
+				cantHijos = arbol.hijos.tamanio();
+				guardoHijo = true;
+				encontroHijo = false;
 			}
 
-			if(nivelActual == nivelHoja - 1 && i != numHijos - 1){
-				return -1;
+			if(encontroHijo && guardoHijo){
+				if(cantHijos > arbol.hijos.tamanio()){
+					return false;
+				}
+				if((cantHijos > arbol.hijos.tamanio())){
+					//CONTINUAR DESPUES
+					return true;
+				}
 			}
 
-			i++;
-        }
+		}
 
-		return nivelHoja;
+
+		return false;
+	}
+
+	private boolean procesarArbolCompletoMenosHijos(int nivel) {
+		ListaGenerica<T> listaPorNivel = new ListaEnlazadaGenerica<T>();
+		ListaGenerica<T> listaInNivel = new ListaEnlazadaGenerica<T>();
+		int cantHijos = 1;
+		int cantHijosAux;
+		listaInNivel = recorridoPorNiveles(this);
+		listaInNivel.comenzar();
+
+		while(!(listaInNivel.fin())){
+			T dato = listaInNivel.proximo();
+
+			if(dato == null){
+				cantHijosAux = listaPorNivel.tamanio();
+
+				if(cantHijos * cantHijos == cantHijosAux || nivel == 1){
+					cantHijos = cantHijosAux;
+				}
+				else{
+					if(listaInNivel.proximo() == null){
+						return true; // esto esta bien porque esta parado sobre el nivel de hojas
+					}
+					else{
+						return false; // esto esta mal porque no esta lleno
+					}
+				}
+				vaciarLista(listaPorNivel);
+				nivel++;
+			}
+
+			listaPorNivel.agregarFinal(dato);
+
+
+		}
+
+		return false;
 
     }
 
+	private void vaciarLista(ListaGenerica<T> lista) {
 
-    //--------------------------RECORRIDOS------------------------------
+		int i = 0;
+
+		while(!lista.esVacia()){
+			lista.eliminarEn(lista.tamanio() - i);
+			i++;
+		}
+
+	}
+
+
+	//--------------------------RECORRIDOS------------------------------
 
 	private ListaGenerica<T> recorridoPorNiveles(ArbolGeneralMejorado<T> arbol){
 		ListaGenerica<T> listaResultado = new ListaEnlazadaGenerica<T>();
