@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit con el ejercicio 6 listo">
-      <change afterPath="$PROJECT_DIR$/TP3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit agregando el TP 3 parte 2">
+      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp01/ColaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio10/InmediatoMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio3/ContadorArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio4/RedBinariaLlena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio10/TestInmediatoMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio3/TestContadorArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio4/TestRetardo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio8/TestABB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio9/TestABBEjercicio9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/ejercicio6/ArbolGeneralMejorado.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/ejercicio6/ArbolGeneralMejorado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03abb/ArbolBinarioDeBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03abb/ArbolBinarioDeBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +46,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.TestABB.executor": "Run",
+    "Application.TestABBEjercicio9.executor": "Run",
     "Application.TestAnalizador.executor": "Debug",
     "Application.TestArbolGeneralMejorado.executor": "Run",
     "Application.TestBalanceo.executor": "Run",
     "Application.TestCaudal.executor": "Run",
     "Application.TestColaPila.executor": "Run",
+    "Application.TestContadorArbol.executor": "Run",
+    "Application.TestInmediatoMayor.executor": "Run",
     "Application.TestListaDeEnterosConArreglos.executor": "Run",
     "Application.TestListaEnlazadaGenerica.executor": "Run",
     "Application.TestRecorrido.executor": "Run",
+    "Application.TestRetardo.executor": "Run",
     "Application.ejercicio1.TestListaDeEnterosConArreglos.executor": "Run",
+    "Application.testMedotodosNuevos.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -64,22 +77,24 @@
       <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP2\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ejercicio9" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="clasesBrindadas.tp01" />
       <recent name="ejercicio6" />
       <recent name="claseUtilizar" />
       <recent name="ejercicio4" />
       <recent name="ejercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestArbolGeneralMejorado">
-    <configuration name="TestAnalizador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio4.TestAnalizador" />
-      <module name="TP2" />
+  <component name="RunManager" selected="Application.TestInmediatoMayor">
+    <configuration name="TestABB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio8.TestABB" />
+      <module name="TP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio4.*" />
+          <option name="PATTERN" value="ejercicio8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArbolGeneralMejorado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio6.TestArbolGeneralMejorado" />
-      <module name="TP2" />
+    <configuration name="TestABBEjercicio9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio9.TestABBEjercicio9" />
+      <module name="TP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio6.*" />
+          <option name="PATTERN" value="ejercicio9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,38 +115,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCaudal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio5.TestCaudal" />
-      <module name="TP2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejercicio5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListaEnlazadaGenerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio2.TestListaEnlazadaGenerica" />
-      <module name="TP1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejercicio2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRecorrido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio3.TestRecorrido" />
-      <module name="TP2" />
+    <configuration name="TestContadorArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio3.TestContadorArbol" />
+      <module name="TP3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInmediatoMayor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio10.TestInmediatoMayor" />
+      <module name="TP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRetardo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio4.TestRetardo" />
+      <module name="TP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestArbolGeneralMejorado" />
-        <item itemvalue="Application.TestCaudal" />
-        <item itemvalue="Application.TestAnalizador" />
-        <item itemvalue="Application.TestRecorrido" />
-        <item itemvalue="Application.TestListaEnlazadaGenerica" />
+        <item itemvalue="Application.TestInmediatoMayor" />
+        <item itemvalue="Application.TestABBEjercicio9" />
+        <item itemvalue="Application.TestABB" />
+        <item itemvalue="Application.TestRetardo" />
+        <item itemvalue="Application.TestContadorArbol" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725138364679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit agregando el TP 3">
+      <option name="closed" value="true" />
+      <created>1725940272387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725940272387</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit agregando el TP 3 parte 2">
+      <option name="closed" value="true" />
+      <created>1725940472774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725940472774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,7 +258,9 @@
     <MESSAGE value="commit con el ejercicio 4 listo" />
     <MESSAGE value="commit con el ejercicio 5 listo" />
     <MESSAGE value="commit con el ejercicio 6 listo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit con el ejercicio 6 listo" />
+    <MESSAGE value="commit agregando el TP 3" />
+    <MESSAGE value="commit agregando el TP 3 parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit agregando el TP 3 parte 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,10 +280,23 @@
           <line>23</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="6" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03abb/ArbolBinarioDeBusqueda.java</url>
+          <line>191</line>
+          <properties class="clasesBrindadas.tp03abb.ArbolBinarioDeBusqueda" method="recorrerArbol">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/TP3/src/main/java/ejercicio10/InmediatoMayor.java</url>
+          <line>39</line>
+          <properties class="ejercicio10.InmediatoMayor" method="buscarNodo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
