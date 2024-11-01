@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit agregando el TP 3 parte 2">
-      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp01/ColaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio10/InmediatoMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio3/ContadorArbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/main/java/ejercicio4/RedBinariaLlena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio10/TestInmediatoMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio3/TestContadorArbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio4/TestRetardo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio8/TestABB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio9/TestABBEjercicio9.java" afterDir="false" />
+    <list default="true" id="ebfd5c68-c3fb-4575-aae1-5cb2a6e38c33" name="Changes" comment="commit con el TP 3 terminado">
+      <change afterPath="$PROJECT_DIR$/TP5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/clasesUtilizar/ListaEnlazadaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/clasesUtilizar/ListaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/clasesUtilizar/NodoGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/heap/ColaPrioridades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/heap/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/main/java/heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5/src/test/java/heap/TestHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/src/main/java/clasesUsar/tp06/AristaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/src/main/java/ejercicio1b/GrafoImplMatrizAdy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/src/main/java/ejercicio1b/VerticeImplMatrizAdy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/src/main/java/ejercicio1c/GrafoImplListAdy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP6/src/main/java/ejercicio1c/VerticeImplListAdy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03ab/ArbolBinario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03abb/ArbolBinarioDeBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/main/java/clasesBrindadas/tp03abb/ArbolBinarioDeBusqueda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/src/test/java/ejercicio2/testMedotodosNuevos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,36 +47,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.TestABB.executor": "Run",
-    "Application.TestABBEjercicio9.executor": "Run",
-    "Application.TestAnalizador.executor": "Debug",
-    "Application.TestArbolGeneralMejorado.executor": "Run",
-    "Application.TestBalanceo.executor": "Run",
-    "Application.TestCaudal.executor": "Run",
-    "Application.TestColaPila.executor": "Run",
-    "Application.TestContadorArbol.executor": "Run",
-    "Application.TestInmediatoMayor.executor": "Run",
-    "Application.TestListaDeEnterosConArreglos.executor": "Run",
-    "Application.TestListaEnlazadaGenerica.executor": "Run",
-    "Application.TestRecorrido.executor": "Run",
-    "Application.TestRetardo.executor": "Run",
-    "Application.ejercicio1.TestListaDeEnterosConArreglos.executor": "Run",
-    "Application.testMedotodosNuevos.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/desertfoxs/eclipse-workspace2/AyED/TP2/src/main/java/claseUtilizar",
-    "onboarding.tips.debug.path": "C:/Users/desertfoxs/eclipse-workspace2/AyED/TP1/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestABB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestABBEjercicio9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAnalizador.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestArbolGeneralMejorado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBalanceo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCaudal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestColaPila.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestContadorArbol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestInmediatoMayor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListaDeEnterosConArreglos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListaEnlazadaGenerica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestRecorrido.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestRetardo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio1.TestListaDeEnterosConArreglos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testMedotodosNuevos.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/desertfoxs/eclipse-workspace2/AyED/TP5/src/main/java/clasesUtilizar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/desertfoxs/eclipse-workspace2/AyED/TP1/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP5\src\main\java\clasesUtilizar" />
       <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP2\src\main\java\claseUtilizar" />
       <recent name="C:\Users\desertfoxs\eclipse-workspace2\AyED\TP2\src\main" />
     </key>
@@ -81,14 +87,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="clasesUtilizar" />
       <recent name="clasesBrindadas.tp01" />
       <recent name="ejercicio6" />
       <recent name="claseUtilizar" />
       <recent name="ejercicio4" />
-      <recent name="ejercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInmediatoMayor">
+  <component name="RunManager" selected="Application.TestHeap">
     <configuration name="TestABB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio8.TestABB" />
       <module name="TP3" />
@@ -115,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContadorArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio3.TestContadorArbol" />
-      <module name="TP3" />
+    <configuration name="TestHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.TestHeap" />
+      <module name="TP5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio3.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHeap" />
         <item itemvalue="Application.TestInmediatoMayor" />
         <item itemvalue="Application.TestABBEjercicio9" />
         <item itemvalue="Application.TestABB" />
         <item itemvalue="Application.TestRetardo" />
-        <item itemvalue="Application.TestContadorArbol" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725940472774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit con el TP 3 terminado">
+      <option name="closed" value="true" />
+      <created>1726876408822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726876408822</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,7 +274,8 @@
     <MESSAGE value="commit con el ejercicio 6 listo" />
     <MESSAGE value="commit agregando el TP 3" />
     <MESSAGE value="commit agregando el TP 3 parte 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit agregando el TP 3 parte 2" />
+    <MESSAGE value="commit con el TP 3 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit con el TP 3 terminado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
